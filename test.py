@@ -19,7 +19,11 @@ firstWord = input ('Введите строку\n')
 lengthFirstWord = len(firstWord)
 #Вывод длины и последнего символа строки
 print ('Количество символов: ', len(firstWord))
-print ('Последний символ: ', firstWord[lengthFirstWord - 1])
+
+if firstWord[lengthFirstWord - 1] == 'ь':
+ print ('Последний символ: ', firstWord[lengthFirstWord - 2])
+else:
+ print ('Последний символ: ', firstWord[lengthFirstWord - 1])
 
 secondWord = input ('Введите строку\n')
 
