@@ -31,4 +31,3 @@ if (b == b2):
  print(b, ' = ', b2)
 else:
  print(b, '!=', b2)
-
